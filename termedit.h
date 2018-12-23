@@ -18,7 +18,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #ifndef buffers_h
 #define buffers_h
 
-#include "structs.h"
+//#include "structs.h"
 
 void goToNextBuffer();
 void goToPrevBuffer();
@@ -45,7 +45,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #ifndef buffers_h
 #define buffers_h
 
-#include "structs.h"
+//#include "structs.h"
 
 void goToNextBuffer();
 void goToPrevBuffer();
@@ -154,7 +154,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 #include <stdio.h>
 
-#include "structs.h"
+//#include "structs.h"
 
 char scrollDown();
 char scrollUp();
@@ -224,7 +224,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #ifndef move_h
 #define move_h
 
-#include "structs.h"
+//#include "structs.h"
 
 char positionDown(struct position *p);
 char positionUp(struct position *p);
@@ -256,7 +256,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #ifndef screenIO_h
 #define screenIO_h
 
-#include "structs.h"
+//#include "structs.h"
 
 void displayScreen();
 void showRow();
@@ -452,7 +452,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 #include <stdio.h>
 
-#include "structs.h"
+//#include "structs.h"
 
 char scrollDown();
 char scrollUp();
@@ -522,7 +522,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #ifndef move_h
 #define move_h
 
-#include "structs.h"
+//#include "structs.h"
 
 char positionDown(struct position *p);
 char positionUp(struct position *p);
@@ -554,7 +554,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #ifndef screenIO_h
 #define screenIO_h
 
-#include "structs.h"
+//#include "structs.h"
 
 void displayScreen();
 void showRow();
